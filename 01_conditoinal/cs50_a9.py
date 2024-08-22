@@ -15,8 +15,8 @@ def main():
     elif 18.0 <= time <= 19.0:
         print("its dinnuh yuhh")
 
-def convert(anything):
-    x, y = time_str.split(":")
+def convert(time_number):
+    x, y = time_number.split(":")
     hours = int(x) 
     minutes = int(y)/60
     return hours + minutes 
